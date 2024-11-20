@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println(prodotto1.codice);
         System.out.println(prodotto1.prezzoBase());
-        
+        System.out.println(prodotto1.prezzoConIva());
 
     }
 

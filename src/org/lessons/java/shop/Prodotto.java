@@ -27,7 +27,10 @@ public class Prodotto {
         return "Il prezzo base è " + prezzo;
     }
 
-    
+    // Metodo che ritorna il prezzo comprensivo di iva
+    public String prezzoConIva(){
+        return "Il prezzo comprensivo di iva è " + (prezzo * (1 + iva / 100));
+    }
 
 
 }
