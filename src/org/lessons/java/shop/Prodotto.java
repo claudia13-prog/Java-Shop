@@ -1,19 +1,21 @@
 package org.lessons.java.shop;
 
+import java.util.Random;
+
 public class Prodotto {
 
     // Variabili d'istanza
     int codice;
     String nome;
     String descrizione;
-    float prezzo;
-    float iva;
+    double prezzo;
+    double iva;
 
     // Metodi
 
     // Costruttore
-    public Prodotto(int codice, String nome, String descrizione, float prezzo, float iva){
-        this.codice = codice;
+    public Prodotto(String nome, String descrizione, double prezzo, double iva){
+        this.codice = new Random().nextInt(1000);  // alla creazione di un nuovo prodotto il codice è valorizzato con un numero random
         this.nome = nome;
         this.descrizione = descrizione;
         this.prezzo = prezzo;
