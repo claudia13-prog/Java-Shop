@@ -32,5 +32,8 @@ public class Prodotto {
         return "Il prezzo comprensivo di iva è " + (prezzo * (1 + iva / 100));
     }
 
-
+    // Metodo che ritorna il nome esteso codice-nome
+    public String nomeEsteso(){
+        return "Il nome esteso del prodotto è " + codice + "-" + nome;
+    }
 }
