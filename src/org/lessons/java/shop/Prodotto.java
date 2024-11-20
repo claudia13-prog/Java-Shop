@@ -22,4 +22,12 @@ public class Prodotto {
         this.iva = iva;
     }
 
+    // Metodo che ritorna il prezzo base
+    public String prezzoBase(){
+        return "Il prezzo base è " + prezzo;
+    }
+
+    
+
+
 }

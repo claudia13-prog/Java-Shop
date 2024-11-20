@@ -4,9 +4,11 @@ public class Main {
 
     public static void main(String[] args){
 
-        Prodotto prodotto1 = new Prodotto("nome", "descrizione", 1.10, 2);
+        Prodotto prodotto1 = new Prodotto("Smartphone", "super top", 890.00, 20.0);
 
         System.out.println(prodotto1.codice);
+        System.out.println(prodotto1.prezzoBase());
+        
 
     }
 
